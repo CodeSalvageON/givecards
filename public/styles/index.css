@@ -1,0 +1,41 @@
+body {
+  transition: ease-in-out 2s;
+  background-color: #ffcc00;
+  font-family: 'Playfair Display', serif;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.card-button {
+  padding: 100px;
+  border: hidden;
+  border-radius: 8px;
+  transition: ease-in-out 2s;
+  background-color: #fff5cc;
+  font-family: 'Playfair Display', serif;
+}
+
+.card-button:hover {
+  background-color: bisque;
+  transition: ease-in-out 2s;
+}
+
+.text-input {
+  padding: 5px;
+  border: hidden;
+  border-radius: 8px;
+  background-color: azure;
+  font-family: 'Playfair Display', serif;
+}
+
+.false-link {
+  color: blue;
+}
+
+.false-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

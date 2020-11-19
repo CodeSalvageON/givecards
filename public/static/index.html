@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thanksgiving Holiday Cards</title>
+
+    <link href="/styles/index.css" rel="stylesheet">
+    <link href="https://media.discordapp.net/attachments/772064957793435678/778351164894609419/47054.png" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="center" id="main">
+      <h1>Thanksgiving Holiday Cards</h1>
+      <br/>
+      <br/>
+      <button class="card-button" id="make-a-card">Make a Card</button><button class="card-button" id="view-all-cards">View all Cards</button>
+    </div>
+
+    <div class="center" id="card-maker">
+      <h1>Card Creator</h1>
+      <i class="false-link" id="card-maker-back">Back</i>
+      <br/>
+      <br/>
+      <form id="card-form">
+        <h3>Card Background Image Link (Optional): <input type="text" class="text-input" id="background-image-link"/></h3>
+        <h3>Card Background Color: <input type="color" class="text-input" id="background-color" required/></h3>
+        <h3>Card Title: <input type="text" class="text-input" id="card-title" maxlength="25" required/></h3>
+        <h3>Card Front Image Link: <input type="text" class="text-input" id="card-front-image-link" required/></h3>
+        <h3>From: <input type="text" class="text-input" required maxlength="50" id="from"/></h3>
+        <button class="card-button">Create and Send!</button>
+      </form>
+    </div>
+
+    <div class="center" id="card-standby">
+      <h1>Creating your card. Please stand by....</h1>
+    </div>
+
+    <div class="center" id="card-image">
+      <img src="https://images-ext-1.discordapp.net/external/CuDW8r7QA2_rKYB2Fynzml9XeCUlFfHoGWMWN6JGqWE/https/cdn0.iconfinder.com/data/icons/merry-christmas-30/60/christmas-24-512.png" />
+    </div>
+
+    <div class="center" id="all-cards">
+      <h1>All Cards</h1>
+      <i class="false-link" id="all-cards-back">Back</i>
+      <br/>
+      <br/>
+      <iframe src="https://givecards.codesalvageon.repl.co/cards" width="800" height="800" frameBorder="0" id="card_iframe"></iframe>
+    </div>
+
+    <footer class="center">
+      <a href="https://discord.gg/FWmJ4ke" target="_blank"><h3>Join Our Discord!</h3></a>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>
